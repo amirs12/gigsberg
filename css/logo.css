@@ -1,0 +1,83 @@
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #484848
+}
+
+.logo-one {
+  display: flex;
+  align-items: center;
+}
+
+.triangles {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 17px;
+}
+
+.triangle-1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 16px 6px;
+  border-color: transparent transparent white transparent;    
+  position: relative;
+  top: 5px;
+  left: -37px; 
+}
+
+.triangle-2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7px 19px 7px;
+  border-color: transparent transparent #2265c0 transparent;    
+  position: relative;
+  top: 2px;
+  left: -15px;
+}
+
+.triangle-3 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7px 19px 7px;
+  border-color: transparent transparent #80d7f9 transparent;    
+  position: relative;
+  top: -4px;
+  left: -4px;
+}
+
+.triangle-4 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 13px 30px 13px;
+  border-color: transparent transparent white transparent;
+  position: relative;
+  top: -10px;
+  left: 25px;  
+}
+
+.letters {
+  display: flex;
+  margin-right: 22px;
+  margin-left: -19px;
+  font-family:  'Changa One', cursive;
+  font-size: 28px;
+  color:white;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.letter-G-depth {
+  position: relative;
+  left: 13px;
+  font-size: 30px;
+  color: #484848;
+}
+
+.letter-G-first {
+  z-index: 1;  
+}

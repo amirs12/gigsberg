@@ -1,0 +1,325 @@
+.ticket-offers-container {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+
+.recently-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  padding-left: 45px;
+}
+
+.recently-header, .wanted-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 14px;
+}
+
+.recently-title, .wanted-title {
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #484848;
+}
+
+.recently-view-all, .wanted-view-all {
+  padding-bottom: 3px;
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1565c0;
+}
+
+.recently-event-deal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.recently-event-details {
+  width: 196px;
+  height: 138px;
+  padding: 14px 22px 6px 22px;
+  background-color: #ffffff;
+}
+
+.recently-event-name {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #484848;
+}
+
+.recently-event-info {
+  width: 196.1px;
+  height: 24px;
+  margin-bottom: 16px;
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #95989a;
+  overflow: hidden;
+}
+
+.recently-tickets-left {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d50000;
+}
+
+.recently-buy-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.recently-buy {
+  width: 87px;
+  height: 27px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #1565c0;
+  font-family: Heebo;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recently-price {
+  font-family: Heebo;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+
+.wanteds-column-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wanted-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 651px;
+  padding-right: 47px;
+  margin-bottom: 60px;
+}
+
+.wanted-event-deal {
+  display: flex;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.wanted-event-pic {
+  width: 272px;
+  height: 185px;
+}
+
+.wanted-event-details {
+  width: 324px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px 23px 35px;
+  background-color: #ffffff;
+}
+
+.wanted-event-name {
+  margin-bottom: 10px;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #484848;
+}
+
+.wanted-event-info {
+  width: 324px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #95989a;
+  overflow: hidden;
+}
+
+.wanted-price {
+  width: 130px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #1565c0;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width:1000px) {
+  .ticket-offers-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .recently-container, .wanted-container {
+    min-width: 651px;
+    margin-bottom: 4vw;
+  }
+
+  .recently-event-deal {
+    flex-direction: row;
+  }
+
+  .recently-event-pic {
+    width: 272px;
+    height: 185px;
+  }
+
+  .recently-event-details {
+    width: 324px;
+    height: 165px;
+  }
+
+  .recently-event-info, .wanted-event-info{
+    width: 324px;
+    height: 40px;
+    margin-bottom: 20px;
+    line-height: 1.71;
+  }
+
+  .wanted-container {
+    padding-left: 45px;
+    padding-right: 0px;
+  }
+
+  .recently-view-all, .wanted-view-all {
+    padding-right: 3%;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .recently-event-pic, .wanted-event-pic {
+    width: 37.831vw;
+    height: 25.592vw;
+  }
+
+  .recently-event-details, .wanted-event-details {
+    width: 38.89vw;
+    height: 22vw;
+    padding: 2.592vw 22px 1vw 22px;
+  }
+
+  .recently-event-info, .wanted-event-info {
+    width: 39vw;
+    height: 4vw;
+    margin-bottom: 2.222vw;
+    font-size: 2.1vw;
+  }
+
+  .recently-tickets-left {
+    font-size: 2.1vw;
+  }
+
+  .recently-buy, .wanted-price {
+    width: 12.085vw;
+    height: 3.75vw;
+    font-size: 1.8vw;
+  }
+
+  .recently-container, .wanted-container {
+    min-width: 125px;
+    padding-left: 6.25vw;
+  }
+
+  .recently-event-name, .wanted-event-name {
+    font-size: 2.5vw;
+  }
+
+  .recently-price {
+    font-size: 2vw;
+  }
+
+  .wanted-event-name {
+    width: 100%;
+    height: 27px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+
+  .wanted-price {
+    font-weight: 500;
+    line-height: 1.29;
+  }
+}
+
+

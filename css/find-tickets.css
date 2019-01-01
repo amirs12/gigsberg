@@ -1,0 +1,116 @@
+.find-tickets-container {
+  height: 520px;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../imgs/1.jpg);
+  background-size: cover;
+}
+
+.find-title {
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: Heebo;
+  font-size: 31px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 18px;
+  margin-left: 7%;
+  padding-top: 42px;
+}
+
+.form-and-featured-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.featured-event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 3.6%;
+}
+
+.featured-title {
+  width: 264px;
+  height: 47px;
+  font-family: Heebo;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.94;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.featured-date {
+  width: 89px;
+  height: 29px;
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.featured-price {
+  width: 130px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #efefef;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+@media screen and (max-width:662px) {
+  .form-and-featured-box {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .form-container {
+    padding-bottom: 4vw;
+  }
+
+  .featured-event-container {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 6.912vw;
+  }
+
+  .featured-title {
+    font-size: 4vw;
+  }
+
+  .featured-date, .featured-price {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width:524px) {
+  .find-title {
+    font-size: 5.9vw;
+  }
+}
